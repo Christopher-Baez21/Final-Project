@@ -17,3 +17,47 @@ body{
       margin: 20px;
       width: 300px;
     }
+    h1 {
+  text-align: center;
+  color: #1a1a1a;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Styles the single Rick Astley meme image */
+.meme-profile-pic {
+  display: block;
+  margin: 0 auto 30px auto; /* Centers the image and adds space below it */
+  width: 100%;
+  max-width: 400px;         /* Prevents the image from getting giant */
+  border-radius: 8px;       /* Softens the corners of the image */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+/* Adds a little breathing room under each historical paragraph */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Styles the link at the bottom like a call-to-action button */
+h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h3 a {
+  display: inline-block;
+  background-color: #ff4500; /* Vibrant meme-like orange/red button */
+  color: white;
+  text-decoration: none;     /* Removes the default underline */
+  padding: 12px 24px;
+  border-radius: 25px;       /* Makes the button pill-shaped */
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+/* Changes button color when hovered */
+h3 a:hover {
+  background-color: #cc3700;
+}
