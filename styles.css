@@ -1,0 +1,17 @@
+    body { background-color: red !important; }
+    .meme-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      align-items: flex-start;
+    }
+    .meme-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .meme-gallery img {
+      margin: 20px;
+      width: 300px;
+    }
