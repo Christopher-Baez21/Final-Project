@@ -1,4 +1,6 @@
-    body { background-color: red !important; }
+body{
+    background-color: gold;
+}
     .meme-gallery {
       display: flex;
       flex-wrap: wrap;
